@@ -1,0 +1,23 @@
+# 这个仓库只放文档与脚本（见 README / 手册第 13 章）。
+# 工具包、运行时、样本、案件产物一律不入库——它们由 _downloads\manifest.json
+# 里的 repo + tag + SHA-256 重建。
+
+# 二进制
+*.exe
+*.dll
+*.jar
+*.zip
+*.7z
+*.so
+*.dylib
+*.pdb
+*.bin
+*.nupkg
+
+# 运行时与缓存
+**/.venv*/
+**/node_modules/
+**/__pycache__/
+
+# 案件与样本
+05-Cases/

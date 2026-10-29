@@ -1,0 +1,32 @@
+﻿ROOT = D:\逆向工具网络安全汇总
+mkdir D:\逆向工具网络安全汇总\01-Disassembly-Debug
+mkdir D:\逆向工具网络安全汇总\02-Dynamic-Instrumentation
+mkdir D:\逆向工具网络安全汇总\03-Automation-Agents
+mkdir D:\逆向工具网络安全汇总\04-Runtimes
+mkdir D:\逆向工具网络安全汇总\05-Cases
+mkdir D:\逆向工具网络安全汇总\_manifest
+stop blocker: adb (pid 5608) D:\frida\platform-tools\adb.exe
+stop blocker: node (pid 142088) D:\。。。\node.exe
+stop blocker: python (pid 140408) D:\ghidra-mcp\.venv\Scripts\python.exe
+stop blocker: python (pid 141948) D:\frida\.venv\Scripts\python.exe
+MOVED D:\RE-Toolkit -> D:\逆向工具网络安全汇总\01-Disassembly-Debug\RE-Toolkit
+MOVED D:\ghidra_12.1.3_PUBLIC -> D:\逆向工具网络安全汇总\01-Disassembly-Debug\Ghidra
+MOVED D:\ghidra-mcp -> D:\逆向工具网络安全汇总\01-Disassembly-Debug\ghidra-mcp
+MOVED D:\frida -> D:\逆向工具网络安全汇总\02-Dynamic-Instrumentation\frida
+MOVED D:\LSPosed -> D:\逆向工具网络安全汇总\02-Dynamic-Instrumentation\LSPosed
+MOVED D:\REA -> D:\逆向工具网络安全汇总\03-Automation-Agents\REA
+MOVED D:\RevLab -> D:\逆向工具网络安全汇总\03-Automation-Agents\RevLab
+MOVED D:\RE_Automation_Framework -> D:\逆向工具网络安全汇总\03-Automation-Agents\RE_Automation_Framework
+MOVED D:\AutoRev-Crypto -> D:\逆向工具网络安全汇总\03-Automation-Agents\AutoRev-Crypto
+FAILED D:\。。。 : 对路径的访问被拒绝。
+MOVED D:\nd -> D:\逆向工具网络安全汇总\04-Runtimes\jdk25
+MOVED D:\USBHistory -> D:\逆向工具网络安全汇总\05-Cases\USBHistory
+MOVED D:\QQ_RE_2026-10-15 -> D:\逆向工具网络安全汇总\05-Cases\QQ_RE_2026-10-15
+MOVED D:\rev-phase1-check -> D:\逆向工具网络安全汇总\05-Cases\rev-phase1-check
+MOVED D:\rev-phase1-frozen2 -> D:\逆向工具网络安全汇总\05-Cases\rev-phase1-frozen2
+MOVED D:\rev-test-scratch -> D:\逆向工具网络安全汇总\05-Cases\rev-test-scratch
+FAILED D:\kkkkkkklllllll : 未能找到路径中的某个部分。
+MOVED D:\Palantir_Research\tools\unidbg -> D:\逆向工具网络安全汇总\02-Dynamic-Instrumentation\unidbg
+junction D:\Palantir_Research\tools\unidbg -> D:\逆向工具网络安全汇总\02-Dynamic-Instrumentation\unidbg
+removed old reparse point: D:\unidbg
+junction D:\unidbg -> D:\逆向工具网络安全汇总\02-Dynamic-Instrumentation\unidbg
